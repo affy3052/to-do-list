@@ -24,8 +24,8 @@ function App() {
     };
 
     const deleteTask = (index) => {
-        
         let splice = toDoList.filter((item, i) => i !== index);
+        <image src="https://github.com/affy3052/to-do-list/commit/e6988074733ced736ca068892b8758531331de13#diff-54680dd1cadb4d38b1c1d23264b25c0b28e9e2dbb492629469e566016506d969"/>
         updateToDOList(splice);
     }
 
